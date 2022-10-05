@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1089px" preserveAspectRatio="none" style="width:1795px;height:1089px;background:#FFFFFF;" version="1.1" viewBox="0 0 1795 1089" width="1795px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="298" x="749.5" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="288" x="754.5" y="27.9951">Authorization access resource flow</text><rect fill="#DDDDDD" height="1033.375" style="stroke:#181818;stroke-width:0.5;" width="1286" x="413" y="43.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="76" x="1018" y="55.3638">K8S_ZONE</text><rect fill="#FFFFFF" height="785.25" style="stroke:#181818;stroke-width:1.0;" width="10" x="280" y="134.7266"/><rect fill="#FFFFFF" height="745.9844" style="stroke:#181818;stroke-width:1.0;" width="10" x="543" y="173.9922"/><rect fill="#FFFFFF" height="104.5313" style="stroke:#181818;stroke-width:1.0;" width="10" x="833.5" y="254.5234"/><rect fill="#FFFFFF" height="174.6641" style="stroke:#181818;stroke-width:1.0;" width="10" x="1109.5" y="391.1875"/><rect fill="#FFFFFF" height="194.7617" style="stroke:#181818;stroke-width:1.0;" width="10" x="1352.5" y="605.5508"/><rect fill="#FFFFFF" height="113.3984" style="stroke:#181818;stroke-width:1.0;" width="10" x="1531" y="423.3203"/><rect fill="#FFFFFF" height="77.5313" style="stroke:#181818;stroke-width:1.0;" width="10" x="1659" y="645.25"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="285" x2="285" y1="124.7266" y2="1011.375"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="548" x2="548" y1="124.7266" y2="1011.375"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="838" x2="838" y1="124.7266" y2="1011.375"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1114" x2="1114" y1="124.7266" y2="1011.375"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1357" x2="1357" y1="124.7266" y2="1011.375"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1536" x2="1536" y1="124.7266" y2="1011.375"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1664" x2="1664" y1="124.7266" y2="1011.375"/><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="44" x="263" y="93.4297"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="270" y="113.4248">web</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="44" x="263" y="1010.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="270" y="1030.3701">web</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="102" x="497" y="93.4297"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="504" y="113.4248">bff_web_api</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="102" x="497" y="1010.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="504" y="1030.3701">bff_web_api</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="769" y="93.4297"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="776" y="113.4248">authorization_api</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="769" y="1010.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="776" y="1030.3701">authorization_api</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="73" x="1078" y="93.4297"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="1085" y="113.4248">uam_api</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="73" x="1078" y="1010.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="1085" y="1030.3701">uam_api</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="73" x="1321" y="93.4297"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="1328" y="113.4248">user_api</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="73" x="1321" y="1010.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="1328" y="1030.3701">user_api</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1484" y="121.4248">uam_redis_db</text><path d="M1518,72.4297 C1518,62.4297 1536,62.4297 1536,62.4297 C1536,62.4297 1554,62.4297 1554,72.4297 L1554,98.4297 C1554,108.4297 1536,108.4297 1536,108.4297 C1536,108.4297 1518,108.4297 1518,98.4297 L1518,72.4297 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/><path d="M1518,72.4297 C1518,82.4297 1536,82.4297 1536,82.4297 C1536,82.4297 1554,82.4297 1554,72.4297 " fill="none" style="stroke:#181818;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1484" y="1023.3701">uam_redis_db</text><path d="M1518,1036.6719 C1518,1026.6719 1536,1026.6719 1536,1026.6719 C1536,1026.6719 1554,1026.6719 1554,1036.6719 L1554,1062.6719 C1554,1072.6719 1536,1072.6719 1536,1072.6719 C1536,1072.6719 1518,1072.6719 1518,1062.6719 L1518,1036.6719 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/><path d="M1518,1036.6719 C1518,1046.6719 1536,1046.6719 1536,1046.6719 C1536,1046.6719 1554,1046.6719 1554,1036.6719 " fill="none" style="stroke:#181818;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1633" y="121.4248">user_db</text><path d="M1646,72.4297 C1646,62.4297 1664,62.4297 1664,62.4297 C1664,62.4297 1682,62.4297 1682,72.4297 L1682,98.4297 C1682,108.4297 1664,108.4297 1664,108.4297 C1664,108.4297 1646,108.4297 1646,98.4297 L1646,72.4297 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/><path d="M1646,72.4297 C1646,82.4297 1664,82.4297 1664,82.4297 C1664,82.4297 1682,82.4297 1682,72.4297 " fill="none" style="stroke:#181818;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1633" y="1023.3701">user_db</text><path d="M1646,1036.6719 C1646,1026.6719 1664,1026.6719 1664,1026.6719 C1664,1026.6719 1682,1026.6719 1682,1036.6719 L1682,1062.6719 C1682,1072.6719 1664,1072.6719 1664,1072.6719 C1664,1072.6719 1646,1072.6719 1646,1062.6719 L1646,1036.6719 " fill="#E2E2F0" style="stroke:#181818;stroke-width:1.5;"/><path d="M1646,1036.6719 C1646,1046.6719 1664,1046.6719 1664,1046.6719 C1664,1046.6719 1682,1046.6719 1682,1036.6719 " fill="none" style="stroke:#181818;stroke-width:1.5;"/><rect fill="#FFFFFF" height="785.25" style="stroke:#181818;stroke-width:1.0;" width="10" x="280" y="134.7266"/><rect fill="#FFFFFF" height="745.9844" style="stroke:#181818;stroke-width:1.0;" width="10" x="543" y="173.9922"/><rect fill="#FFFFFF" height="104.5313" style="stroke:#181818;stroke-width:1.0;" width="10" x="833.5" y="254.5234"/><rect fill="#FFFFFF" height="174.6641" style="stroke:#181818;stroke-width:1.0;" width="10" x="1109.5" y="391.1875"/><rect fill="#FFFFFF" height="194.7617" style="stroke:#181818;stroke-width:1.0;" width="10" x="1352.5" y="605.5508"/><rect fill="#FFFFFF" height="113.3984" style="stroke:#181818;stroke-width:1.0;" width="10" x="1531" y="423.3203"/><rect fill="#FFFFFF" height="77.5313" style="stroke:#181818;stroke-width:1.0;" width="10" x="1659" y="645.25"/><polygon fill="#181818" points="531,169.9922,541,173.9922,531,177.9922,535,173.9922" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="290" x2="537" y1="173.9922" y2="173.9922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="297" y="168.9263">/api/v1/user/{id}</text><path d="M5,139.7266 L5,194.7266 L275,194.7266 L275,149.7266 L265,139.7266 L5,139.7266 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M265,139.7266 L265,149.7266 L275,149.7266 L265,139.7266 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="11" y="156.7935">Request header</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="11" y="171.9263">- Method: GET</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="11" y="187.0591">- Authorization Bearer {access_token}</text><polygon fill="#181818" points="821.5,250.5234,831.5,254.5234,821.5,258.5234,825.5,254.5234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="553" x2="827.5" y1="254.5234" y2="254.5234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179" x="560" y="249.4575">/api/v1/oauth/token/validate</text><path d="M268,205.125 L268,290.125 L538,290.125 L538,215.125 L528,205.125 L268,205.125 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M528,205.125 L528,215.125 L538,215.125 L528,205.125 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="140" x="274" y="222.1919">Validate access token</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="274" y="237.3247"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="274" y="252.4575">Request header</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="129" x="274" y="267.5903">- Method: GET,POST</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="249" x="274" y="282.7231">- Authorization Bearer {access_token}</text><line style="stroke:#181818;stroke-width:1.0;" x1="843.5" x2="885.5" y1="316.9219" y2="316.9219"/><line style="stroke:#181818;stroke-width:1.0;" x1="885.5" x2="885.5" y1="316.9219" y2="329.9219"/><line style="stroke:#181818;stroke-width:1.0;" x1="844.5" x2="885.5" y1="329.9219" y2="329.9219"/><polygon fill="#181818" points="854.5,325.9219,844.5,329.9219,854.5,333.9219,850.5,329.9219" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="850.5" y="311.856">validate session token</text><polygon fill="#181818" points="564,355.0547,554,359.0547,564,363.0547,560,359.0547" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="558" x2="837.5" y1="359.0547" y2="359.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="570" y="353.9888">return</text><polygon fill="#181818" points="1097.5,387.1875,1107.5,391.1875,1097.5,395.1875,1101.5,391.1875" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="553" x2="1103.5" y1="391.1875" y2="391.1875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="304" x="560" y="386.1216">/api/v1/uam/validateUserRoleByControllerName</text><path d="M331,372.0547 L331,397.0547 L538,397.0547 L538,382.0547 L528,372.0547 L331,372.0547 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M528,372.0547 L528,382.0547 L538,382.0547 L528,372.0547 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="186" x="337" y="389.1216">Validate role in access_token</text><polygon fill="#181818" points="1519,419.3203,1529,423.3203,1519,427.3203,1523,423.3203" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1119.5" x2="1525" y1="423.3203" y2="423.3203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="187" x="1126.5" y="418.2544">find user map role from redis</text><line style="stroke:#181818;stroke-width:1.0;" x1="1541" x2="1583" y1="452.4531" y2="452.4531"/><line style="stroke:#181818;stroke-width:1.0;" x1="1583" x2="1583" y1="452.4531" y2="465.4531"/><line style="stroke:#181818;stroke-width:1.0;" x1="1542" x2="1583" y1="465.4531" y2="465.4531"/><polygon fill="#181818" points="1552,461.4531,1542,465.4531,1552,469.4531,1548,465.4531" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="104" x="1548" y="447.3872">find data by key</text><line style="stroke:#181818;stroke-width:1.0;" x1="1119.5" x2="1161.5" y1="494.5859" y2="494.5859"/><line style="stroke:#181818;stroke-width:1.0;" x1="1161.5" x2="1161.5" y1="494.5859" y2="507.5859"/><line style="stroke:#181818;stroke-width:1.0;" x1="1120.5" x2="1161.5" y1="507.5859" y2="507.5859"/><polygon fill="#181818" points="1130.5,503.5859,1120.5,507.5859,1130.5,511.5859,1126.5,507.5859" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="111" x="1126.5" y="489.52">validate role user</text><polygon fill="#181818" points="1130.5,532.7188,1120.5,536.7188,1130.5,540.7188,1126.5,536.7188" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1124.5" x2="1535" y1="536.7188" y2="536.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="117" x="1136.5" y="531.6528">return redis object</text><polygon fill="#181818" points="564,561.8516,554,565.8516,564,569.8516,560,565.8516" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="558" x2="1113.5" y1="565.8516" y2="565.8516"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="570" y="560.7856">return</text><polygon fill="#181818" points="1340.5,601.5508,1350.5,605.5508,1340.5,609.5508,1344.5,605.5508" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="553" x2="1346.5" y1="605.5508" y2="605.5508"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="189" x="560" y="600.4849">/api/v1/user/getUserById/{id}</text><path d="M415,578.8516 L415,618.8516 L538,618.8516 L538,588.8516 L528,578.8516 L415,578.8516 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M528,578.8516 L528,588.8516 L538,588.8516 L528,578.8516 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="421" y="595.9185">Request header</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82" x="421" y="611.0513">Method: GET</text><polygon fill="#181818" points="1647,641.25,1657,645.25,1647,649.25,1651,645.25" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1362.5" x2="1653" y1="645.25" y2="645.25"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="104" x="1369.5" y="640.1841">query user by id</text><polygon fill="#181818" points="1373.5,718.7813,1363.5,722.7813,1373.5,726.7813,1369.5,722.7813" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1367.5" x2="1663" y1="722.7813" y2="722.7813"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="1379.5" y="717.7153">return</text><path d="M1674,658.25 L1674,773.25 L1788,773.25 L1788,668.25 L1778,658.25 L1674,658.25 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M1778,658.25 L1778,668.25 L1788,668.25 L1778,658.25 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93" x="1680" y="675.3169">Find user by id</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1680" y="690.4497"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="1680" y="705.5825">Return object</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="1680" y="720.7153">- id</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="1680" y="735.8481">- frist_name</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76" x="1680" y="750.981">- last_name</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="1680" y="766.1138">- age</text><polygon fill="#181818" points="564,796.3125,554,800.3125,564,804.3125,560,800.3125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="558" x2="1356.5" y1="800.3125" y2="800.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="570" y="795.2466">return</text><line style="stroke:#181818;stroke-width:1.0;" x1="553" x2="595" y1="829.4453" y2="829.4453"/><line style="stroke:#181818;stroke-width:1.0;" x1="595" x2="595" y1="829.4453" y2="842.4453"/><line style="stroke:#181818;stroke-width:1.0;" x1="554" x2="595" y1="842.4453" y2="842.4453"/><polygon fill="#181818" points="564,838.4453,554,842.4453,564,846.4453,560,842.4453" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="239" x="560" y="824.3794">build resposne body or do some logic</text><polygon fill="#181818" points="296,915.9766,286,919.9766,296,923.9766,292,919.9766" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="290" x2="547" y1="919.9766" y2="919.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="302" y="914.9106">return</text><path d="M558,855.4453 L558,970.4453 L784,970.4453 L784,865.4453 L774,855.4453 L558,855.4453 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M774,855.4453 L774,865.4453 L784,865.4453 L774,855.4453 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="564" y="872.5122">Response header</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="205" x="564" y="887.645">- Content-Type: application/json</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="564" y="902.7778"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="99" x="564" y="917.9106">Response body</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="20" x="564" y="933.0435">- id</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="564" y="948.1763">- frist_name</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76" x="564" y="963.3091">- last_name</text><!--MD5=[2c17189656f18f7fee4827d0d5aa0e90]
+@startuml
+title Authorization access resource flow
+' autonumber
+skinparam ParticipantPadding 80
+skinparam BoxPadding 20
+
+participant web
+
+box K8S_ZONE
+participant bff_web_api
+participant authorization_api
+participant uam_api
+participant user_api
+database uam_redis_db
+database user_db
+end box
+
+activate web
+web -> bff_web_api : /api/v1/user/{id}
+note left  
+    Request header
+    - Method: GET
+    - Authorization Bearer {access_token}
+end note
+
+activate bff_web_api
+bff_web_api -> authorization_api: /api/v1/oauth/token/validate
+activate authorization_api
+note left
+    Validate access token
+
+    Request header
+    - Method: GET,POST
+    - Authorization Bearer {access_token}
+end note
+authorization_api -> authorization_api: validate session token
+authorization_api - -> bff_web_api: return
+deactivate authorization_api
+bff_web_api -> uam_api: /api/v1/uam/validateUserRoleByControllerName
+activate uam_api
+note left
+    Validate role in access_token
+end note
+uam_api -> uam_redis_db: find user map role from redis
+activate uam_redis_db
+uam_redis_db -> uam_redis_db: find data by key
+uam_api -> uam_api: validate role user
+uam_redis_db - -> uam_api: return redis object
+deactivate uam_redis_db
+uam_api - -> bff_web_api: return
+deactivate uam_api
+bff_web_api -> user_api : /api/v1/user/getUserById/{id}
+activate user_api
+note left
+    Request header
+    Method: GET
+end note
+user_api -> user_db : query user by id
+activate user_db
+user_db - -> user_api: return
+note right
+    Find user by id
+
+    Return object
+    - id
+    - frist_name
+    - last_name
+    - age
+end note
+deactivate user_db
+user_api - -> bff_web_api: return
+deactivate user_api
+bff_web_api -> bff_web_api: build resposne body or do some logic
+bff_web_api - -> web : return
+note right
+    Response header
+    - Content-Type: application/json
+
+    Response body
+    - id
+    - frist_name
+    - last_name
+end note
+
+|||
+deactivate bff_web_api
+deactivate web
+@enduml
+
+@startuml
+title Authorization access resource flow
+skinparam ParticipantPadding 80
+skinparam BoxPadding 20
+
+participant web
+
+box K8S_ZONE
+participant bff_web_api
+participant authorization_api
+participant uam_api
+participant user_api
+database uam_redis_db
+database user_db
+end box
+
+activate web
+web -> bff_web_api : /api/v1/user/{id}
+note left  
+    Request header
+    - Method: GET
+    - Authorization Bearer {access_token}
+end note
+
+activate bff_web_api
+bff_web_api -> authorization_api: /api/v1/oauth/token/validate
+activate authorization_api
+note left
+    Validate access token
+
+    Request header
+    - Method: GET,POST
+    - Authorization Bearer {access_token}
+end note
+authorization_api -> authorization_api: validate session token
+authorization_api - -> bff_web_api: return
+deactivate authorization_api
+bff_web_api -> uam_api: /api/v1/uam/validateUserRoleByControllerName
+activate uam_api
+note left
+    Validate role in access_token
+end note
+uam_api -> uam_redis_db: find user map role from redis
+activate uam_redis_db
+uam_redis_db -> uam_redis_db: find data by key
+uam_api -> uam_api: validate role user
+uam_redis_db - -> uam_api: return redis object
+deactivate uam_redis_db
+uam_api - -> bff_web_api: return
+deactivate uam_api
+bff_web_api -> user_api : /api/v1/user/getUserById/{id}
+activate user_api
+note left
+    Request header
+    Method: GET
+end note
+user_api -> user_db : query user by id
+activate user_db
+user_db - -> user_api: return
+note right
+    Find user by id
+
+    Return object
+    - id
+    - frist_name
+    - last_name
+    - age
+end note
+deactivate user_db
+user_api - -> bff_web_api: return
+deactivate user_api
+bff_web_api -> bff_web_api: build resposne body or do some logic
+bff_web_api - -> web : return
+note right
+    Response header
+    - Content-Type: application/json
+
+    Response body
+    - id
+    - frist_name
+    - last_name
+end note
+
+|||
+deactivate bff_web_api
+deactivate web
+@enduml
+
+PlantUML version 1.2022.10beta1(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

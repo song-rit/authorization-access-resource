@@ -1,0 +1,88 @@
+@startuml
+title Authorization access resource flow
+' autonumber
+skinparam ParticipantPadding 80
+skinparam BoxPadding 20
+
+participant web
+
+box K8S_ZONE
+participant bff_web_api
+participant authorization_api
+participant uam_api
+participant user_api
+database uam_redis_db
+database user_db
+end box
+
+activate web
+web -> bff_web_api : /api/v1/user/{id}
+note left  
+    Request header
+    - Method: GET
+    - Authorization Bearer {access_token}
+end note
+
+activate bff_web_api
+bff_web_api -> authorization_api: /api/v1/oauth/token/validate
+activate authorization_api
+note left
+    Validate access token
+
+    Request header
+    - Method: GET,POST
+    - Authorization Bearer {access_token}
+end note
+authorization_api -> authorization_api: validate session token
+authorization_api --> bff_web_api: return
+deactivate authorization_api
+bff_web_api -> uam_api: /api/v1/uam/validateUserRoleByControllerName
+activate uam_api
+note left
+    Validate role in access_token
+end note
+uam_api -> uam_redis_db: find user map role from redis
+activate uam_redis_db
+uam_redis_db -> uam_redis_db: find data by key
+uam_api -> uam_api: validate role user
+uam_redis_db --> uam_api: return redis object
+deactivate uam_redis_db
+uam_api --> bff_web_api: return
+deactivate uam_api
+bff_web_api -> user_api : /api/v1/user/getUserById/{id}
+activate user_api
+note left
+    Request header
+    Method: GET
+end note
+user_api -> user_db : query user by id
+activate user_db
+user_db --> user_api: return
+note right
+    Find user by id
+
+    Return object
+    - id
+    - frist_name
+    - last_name
+    - age
+end note
+deactivate user_db
+user_api --> bff_web_api: return
+deactivate user_api
+bff_web_api -> bff_web_api: build resposne body or do some logic
+bff_web_api --> web : return
+note right
+    Response header
+    - Content-Type: application/json
+
+    Response body
+    - id
+    - frist_name
+    - last_name
+end note
+
+|||
+deactivate bff_web_api
+deactivate web
+@enduml
